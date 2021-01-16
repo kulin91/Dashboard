@@ -55,14 +55,25 @@ h1 {
 }
 
 .categories-container {
+  background-color:#EEEEEE;
   width: 30%;
+  margin: 2px;
+  padding: 8px;
+}
+
+.categories-tag {
+  margin: 10px;
 }
 
 .pagination-container {
+  text-align: center;
   height: 50px;
 }
 
 .footer {
-    height: 75px;
+  height: 75px;
   background-color:#EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
