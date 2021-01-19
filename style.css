@@ -6,24 +6,28 @@
 
 .header {
   height: 75px;
-  background-color:#616161;
+  background-color:#EEEEEE;
   display: flex;
   align-items: center;
 }
+
 .header-img {
-  background-color:#FFFF8D;
+  background-color: black;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   margin: 0 10px;
 }
 
-h1 {
-  color: white;
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 .main {
-  background-color: #FAFAFA;
+  background-color:#EEEEEE;
 }
 
 .content-container {
@@ -31,22 +35,24 @@ h1 {
 }
 
 .post-container {
-  width: 70%;
+  width: 80%;
 }
 
 .post {
-  background-color:#EEEEEE;
-  margin: 2px;
+  background-color: #FAFAFA;
+  margin: 9px;
   display: flex;
+  border-radius: 25px;
 }
 
 .post-img {
-  width: 30%;
-  background-color: orange;
+  width: 183px;
+  height: 180px;
+  border-radius: 25px;
 }
 
 .post-info {
-  width: 70%;
+  width: 88%;
   padding: 7px;
 }
 
@@ -55,19 +61,62 @@ h1 {
 }
 
 .categories-container {
-  background-color:#EEEEEE;
-  width: 30%;
-  margin: 2px;
+  background-color: #FAFAFA;
+  width: 20%;
+  margin-top: 9px;
+  margin-right: 5px;
+  margin-bottom: 9px;
   padding: 8px;
+  border-radius: 25px;
+  text-align: center;
 }
 
 .categories-tag {
   margin: 10px;
+  text-align: left;
 }
 
 .pagination-container {
-  text-align: center;
+  display: flex;
+  background-color:#FAFAFA;
+  align-items: center;
+  justify-content: space-evenly;
   height: 50px;
+  border-radius: 15px;
+}
+
+.pagination-button{
+  border-radius: 40%;
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+  background-color: #80CBC4;
+}
+
+.pagination-button-active {
+  background-color: #00695C;
+  color: white;
+}
+
+#pagination-button-back {
+  height: 0px;
+  width: 0px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 15px solid transparent;
+  border-right: 20px solid #80CBC4;
+}
+
+#pagination-button-forward {
+  height: 0px;
+  width: 0px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 15px solid transparent;
+  border-left: 20px solid #80CBC4;
 }
 
 .footer {
